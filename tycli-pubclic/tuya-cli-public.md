@@ -136,7 +136,7 @@ Done installing documentation for tycli-public after 0 seconds
 
 * tuya repo push
 
-  > 我们开发完功能后, 打算部署一个版本到专属的仓库时, 需要最终集成打出包 这一步是必须且不可跳过的一步, 全部自动完成 如 我们执行  tuya repo push TYTestModule.podspec --version=0.0.2
+  > 我们开发完功能后, 打算部署一个版本到专属的仓库时, 需要最终集成打出包 这一步是必须且不可跳过的一步, 全部自动完成 如 我们执行  tuya repo push TYTestModule.podspec --version=0.0.2   (podspec 与version 都是可选参数  podspec 不指定会自动去寻找, 有多个会提示选择, version不指定,默认当前版本低位+1)
 
   ![tuya repo push TYTestModule.podspec --version=0.0.2](tuya repo push TYTestModule.podspec --version=0.0.2.png)
 
